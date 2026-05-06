@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<img src="" style="width:100%;display:block;">
+<meta property="og:title" content="Menu Mama Coffee 05" />
+<meta property="og:description" content="Cafe & Trà sữa ngon mỗi ngày" />
+<meta property="og:image" content="" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Menu Mama Coffee 05" />
+<meta name="twitter:description" content="Cafe & Trà sữa ngon mỗi ngày" />
+<meta name="twitter:image" content="" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Mama Coffee 05 - Cafe & Trà sữa ngon mỗi ngày</title>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{font-family:Arial,Helvetica,sans-serif;background:#f5f5f5;color:#222;}
+body{padding-bottom:80px;}
+input,select,button,textarea{font-size:16px!important;-webkit-text-size-adjust:100%;touch-action:manipulation;}
+.app{max-width:430px;margin:0 auto;background:#fff;min-height:100vh;}
+.topbar{position:sticky;top:0;z-index:60;background:#fff;border-bottom:1px solid #f0e7c8;padding:10px 14px;}
+.topbar-inner{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+.brand{display:flex;align-items:center;gap:8px;}
+.logo{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#ffb03a,#ff8a00);color:#fff;font-weight:800;font-size:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.brand-text h1{font-size:19px;color:#a85700;line-height:1.1;margin:0;}
+.cart-btn{border:none;border-radius:999px;background:#f6a400;color:#fff;padding:10px 14px;font-size:14px;font-weight:700;display:flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap;}
+.cart-count{width:20px;height:20px;border-radius:50%;background:#fff;color:#f6a400;display:inline-flex;align-items:center;justify-content:center;font-size:12px!important;font-weight:800;}
+.search-wrap{padding:10px 12px 6px;}
+.search-input{width:100%;height:42px;border:1.5px solid #f0d9a6;border-radius:999px;padding:0 14px;font-size:15px;background:#fffdf8;color:#333;outline:none;}
+.search-input:focus{border-color:#f6a400;}
+.section{padding:0;}
+.section.hidden-by-search{display:none!important;}
+.section-head{display:flex;align-items:center;gap:8px;padding:12px 16px;margin:12px 12px 0;background:linear-gradient(135deg,#fff8ee,#ffedd8);border:2px solid #f6a400;border-radius:14px;cursor:pointer;scroll-margin-top:70px;box-shadow:0 2px 8px rgba(246,164,0,.15);}
+.section-title{font-size:16px;font-weight:800;color:#a85700;margin:0;}
+.section-arrow{display:none;}
+.section.collapsed .item-grid{display:none;}
+.section-pill{background:#f6a400;color:#fff;border-radius:999px;padding:4px 12px;font-size:12px;font-weight:700;white-space:nowrap;margin-left:auto;transition:background .15s;}
+.section.collapsed .section-pill{background:#fff;color:#f6a400;border:1.5px solid #f6a400;}
+.section-pill-text-open{display:inline;}
+.section-pill-text-close{display:none;}
+.section.collapsed .section-pill-text-open{display:none;}
+.section.collapsed .section-pill-text-close{display:inline;}
+.item-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px 12px 4px;background:transparent;}
+.item-card{background:#fff;display:flex;flex-direction:column;cursor:pointer;position:relative;transition:opacity .15s;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08);}
+.item-card:active{opacity:.85;}
+.item-card.hidden-by-search{display:none!important;}
+.card-img{width:100%;aspect-ratio:1/1;overflow:hidden;background:#fff7e8;position:relative;}
+.card-img img{width:100%;height:100%;object-fit:cover;display:block;}
+.card-qty-badge{position:absolute;bottom:8px;left:8px;min-width:26px;height:26px;border-radius:999px;background:#f6a400;color:#fff;font-size:13px!important;font-weight:800;display:none;align-items:center;justify-content:center;padding:0 6px;box-shadow:0 2px 6px rgba(0,0,0,.2);}
+.card-qty-badge.show{display:flex;}
+.card-plus{position:absolute;bottom:8px;right:8px;width:30px;height:30px;border-radius:50%;background:#f6a400;color:#fff;font-size:22px!important;font-weight:300;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.2);border:none;cursor:pointer;line-height:1;}
+.card-qty-controls{position:absolute;bottom:8px;right:6px;display:flex;align-items:center;gap:4px;background:rgba(255,255,255,.95);border-radius:999px;padding:3px 6px;box-shadow:0 2px 8px rgba(0,0,0,.18);}
+.card-qbtn{width:26px;height:26px;border-radius:50%;border:none;background:#f6a400;color:#fff;font-size:16px!important;font-weight:700;display:flex;align-items:center;justify-content:center;cursor:pointer;line-height:1;padding:0;flex-shrink:0;}
+.card-qnum{font-size:13px!important;font-weight:800;color:#a85700;min-width:16px;text-align:center;}
+.card-plus:active{transform:scale(.9);}
+.card-info{padding:8px 10px 12px;}
+.card-name{font-size:14px;font-weight:700;color:#1f2937;line-height:1.35;margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.card-price{font-size:14px;font-weight:800;color:#d88900;}
+.sheet-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:200;opacity:0;pointer-events:none;transition:opacity .25s;}
+.sheet-overlay.open{opacity:1;pointer-events:auto;}
+.sheet{position:fixed;left:50%;transform:translateX(-50%) translateY(100%);bottom:0;width:100%;max-width:430px;background:#fff;border-radius:20px 20px 0 0;z-index:201;transition:transform .3s cubic-bezier(.32,0,.67,0);max-height:88vh;overflow-y:auto;-webkit-overflow-scrolling:touch;}
+.sheet.open{transform:translateX(-50%) translateY(0);}
+.sheet-handle{width:40px;height:4px;border-radius:999px;background:#e0e0e0;margin:12px auto 0;}
+.sheet-img{width:80px;height:80px;object-fit:cover;border-radius:12px;flex-shrink:0;}
+.sheet-img-placeholder{width:80px;height:80px;background:#fff7e8;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#c8a96a;flex-shrink:0;}
+.sheet-body{padding:16px 16px 28px;}
+.sheet-name{font-size:17px;font-weight:800;color:#1f2937;}
+.sheet-cart-summary{background:#fff8e1;border:1px solid #f6c84a;border-radius:10px;padding:8px 12px;margin-top:8px;font-size:12px;color:#a85700;}
+.sheet-cart-summary-title{font-weight:700;margin-bottom:4px;font-size:12px;}
+.sheet-cart-row{display:flex;justify-content:space-between;padding:2px 0;font-size:12px;color:#7a4a00;}
+.sheet-price{font-size:17px;font-weight:800;color:#d88900;white-space:nowrap;}
+.sheet-label{font-size:14px;font-weight:700;color:#555;margin:12px 0 4px;}
+.sheet-select{width:100%;padding:8px 12px;border:1.5px solid #e8dcba;border-radius:10px;font-size:15px;background:#fff;outline:none;color:#333;}
+.sheet-select:focus{border-color:#f6a400;}
+.sheet-input{width:100%;padding:8px 12px;border:1.5px solid #e8dcba;border-radius:10px;font-size:15px;background:#fff;outline:none;color:#333;}
+.sheet-input:focus{border-color:#f6a400;}
+.sheet-upsell-label{font-size:14px;font-weight:700;color:#555;margin:12px 0 4px;}
+.upsell-list{display:flex;flex-direction:column;gap:8px;}
+.upsell-row{display:flex;align-items:center;justify-content:space-between;padding:13px 14px;border:1.5px solid #e8e8e8;border-radius:12px;cursor:pointer;transition:all .15s;}
+.upsell-row.selected{border-color:#f6a400;background:#fff8e1;}
+.upsell-row:active{opacity:.75;}
+.upsell-row-left{display:flex;align-items:center;gap:10px;}
+.upsell-check{width:22px;height:22px;border-radius:6px;border:2px solid #ccc;display:flex;align-items:center;justify-content:center;font-size:12px!important;color:transparent;flex-shrink:0;transition:all .15s;}
+.upsell-row.selected .upsell-check{background:#f6a400;border-color:#f6a400;color:#fff;}
+.upsell-row-name{font-size:15px;font-weight:500;color:#222;}
+.upsell-row.selected .upsell-row-name{color:#a85700;}
+.upsell-row-price{font-size:13px;font-weight:700;color:#f6a400;}
+.sheet-footer{display:flex;align-items:center;gap:12px;margin-top:18px;padding:14px 0 calc(16px + env(safe-area-inset-bottom));border-top:1px solid #f0e7c8;position:sticky;bottom:0;background:#fff;}
+.sheet-qty-row{display:flex;align-items:center;gap:10px;flex-shrink:0;}
+.sheet-qty-btn{width:34px;height:34px;border-radius:50%;border:2px solid #f6a400;background:#fff;color:#f6a400;font-size:22px!important;font-weight:300;display:flex;align-items:center;justify-content:center;cursor:pointer;line-height:1;}
+.sheet-qty-btn:active{background:#fff8e1;}
+.sheet-qty-num{font-size:16px;font-weight:800;min-width:24px;text-align:center;color:#333;}
+.sheet-add-btn{flex:1;border:none;border-radius:14px;background:#f6a400;color:#fff;padding:13px;font-size:15px;font-weight:800;cursor:pointer;text-align:center;}
+.sheet-add-btn:active{opacity:.85;}
+.mini-bill{position:fixed;left:50%;transform:translateX(-50%);bottom:0;width:100%;max-width:430px;background:#fff;border-top:1px solid #eadfb8;padding:10px 12px calc(10px + env(safe-area-inset-bottom));z-index:70;box-shadow:0 -4px 16px rgba(0,0,0,.06);}
+.mini-bill-inner{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+.mini-bill-top{font-size:14px;font-weight:800;color:#9b4e00;}
+.mini-bill-sub{font-size:12px;color:#777;margin-top:2px;}
+.mini-bill-last{font-size:12px;color:#8a6a2f;margin-top:3px;font-weight:600;}
+.mini-bill-btn{border:none;background:linear-gradient(135deg,#ffb300,#ff8f00);color:#fff;border-radius:14px;padding:12px 16px;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap;flex-shrink:0;box-shadow:0 4px 12px rgba(255,152,0,.35);}
+@keyframes shake{0%{transform:translateX(0)}25%{transform:translateX(-2px)}50%{transform:translateX(2px)}75%{transform:translateX(-2px)}100%{transform:translateX(0)}}
+.mini-bill-btn.shake{animation:shake .4s;}
+.bill-panel{position:fixed;left:50%;transform:translateX(-50%);bottom:76px;width:calc(100% - 16px);max-width:414px;max-height:72vh;overflow:auto;background:#fff;border:1px solid #eadfb8;border-radius:18px;box-shadow:0 16px 32px rgba(0,0,0,.18);z-index:80;display:none;}
+.bill-head{position:sticky;top:0;background:#fffdf8;border-bottom:1px solid #f0e7c8;padding:14px;display:flex;justify-content:space-between;align-items:center;}
+.bill-head h3{margin:0;font-size:18px;color:#9b4e00;}
+.close-btn{border:none;background:transparent;font-size:24px;cursor:pointer;color:#888;}
+.bill-body{padding:14px;}
+.bill-empty{font-size:14px;color:#888;padding:8px 0;}
+.bill-item{border-bottom:1px dashed #eadfb8;padding:10px 0;}
+.bill-item-top{display:flex;justify-content:space-between;gap:10px;margin-bottom:4px;}
+.bill-item-name{font-size:14px;font-weight:700;}
+.bill-item-price{font-size:14px;font-weight:800;color:#a85700;white-space:nowrap;}
+.bill-item-note{font-size:12px;color:#777;line-height:1.5;}
+.bill-total{margin-top:10px;padding-top:12px;border-top:1px solid #eadfb8;display:flex;justify-content:space-between;font-size:16px;font-weight:800;}
+.customer-box{display:grid;gap:10px;margin-top:14px;}
+.input{width:100%;padding:10px 12px;border:1px solid #e8dcba;border-radius:12px;font-size:15px;background:#fff;outline:none;}
+.btn{border:none;border-radius:12px;padding:13px 12px;font-size:15px;font-weight:700;cursor:pointer;width:100%;margin-top:10px;}
+.btn-save-sheet{background:linear-gradient(135deg,#ffb300,#ff8f00);color:#fff;}
+.btn-back-menu{background:#fff;color:#a85700;border:1.5px solid #f6a400;}
+.btn-clear{background:#fee2e2;color:#dc2626;border:1px solid #fecaca;}
+.float-actions{position:fixed;right:14px;bottom:90px;z-index:65;opacity:0;transform:translateY(20px);pointer-events:none;transition:all .25s;}
+.float-actions.show{opacity:1;transform:translateY(0);pointer-events:auto;}
+.fab{width:44px;height:44px;border-radius:50%;border:none;background:linear-gradient(135deg,#ffb300,#ff8f00);color:#fff;font-size:18px!important;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.18);}
+.loading-overlay{position:fixed;inset:0;background:#fff;z-index:9999;display:flex;align-items:center;justify-content:center;font-weight:800;color:#a85700;font-size:16px;}
+.capture-wrap{position:fixed;left:-9999px;top:0;width:400px;z-index:-1;}
+.capture-box{background:#fff;border-radius:20px;padding:18px;width:380px;font-family:Arial,sans-serif;}
+.capture-head{text-align:center;margin-bottom:15px;}
+.capture-head h2{margin:0;color:#c46a00;font-size:18px;}
+.capture-head p{font-size:13px;color:#888;margin-top:5px;}
+.capture-info{background:#f7f2e8;border-radius:12px;padding:10px;font-size:13px;margin-bottom:12px;}
+.capture-total{display:flex;justify-content:space-between;font-weight:bold;border-top:1px solid #eee;padding-top:10px;margin-top:10px;}
+#captureTotal{color:#c46a00;font-size:16px;}
+.capture-qr{text-align:center;margin-top:20px;padding-top:15px;border-top:1px solid #eee;}
+.capture-qr img{max-width:180px;border:1px solid #ddd;padding:5px;border-radius:8px;}
+.item-row{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;border-bottom:1px solid #eee;padding-bottom:6px;gap:8px;}
+.item-name{font-weight:bold;font-size:14px;flex:1;min-width:0;}
+.item-note{font-size:12px;color:#777;margin-top:2px;}
+</style>
+</head>
+<body>
+<div id="loading" class="loading-overlay">Đang tải Menu...</div>
+
+<div class="app">
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="brand" onclick="goHome()" style="cursor:pointer;">
+        <div class="logo">MC0</div>
+        <div class="brand-text"><h1>Menu Mama Coffee 05</h1></div>
+      </div>
+      <button class="cart-btn" onclick="toggleBill(true)">
+        🛒 Giỏ hàng <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="search-wrap">
+    <input type="text" id="searchInput" class="search-input"
+      placeholder="🔍 Tìm món..."
+      oninput="handleSearchInput(this.value)" />
+  </div>
+
+  <div id="menuContainer"></div>
+</div>
+
+<!-- BOTTOM SHEET POPUP -->
+<div class="sheet-overlay" id="sheetOverlay" onclick="closeSheet()"></div>
+<div class="sheet" id="sheet">
+  <div class="sheet-handle"></div>
+  <div class="sheet-body">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+      <div style="font-size:13px;color:#aaa;">Chi tiết món</div>
+      <button onclick="closeSheet()" style="border:none;background:#ff4444;border-radius:50%;width:36px;height:36px;font-size:20px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;color:#fff;flex-shrink:0;box-shadow:0 2px 8px rgba(255,68,68,.35);">×</button>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #f0e7c8;">
+      <div id="sheetImgWrap"></div>
+      <div style="flex:1;min-width:0;">
+        <div class="sheet-name" id="sheetName"></div>
+        <div class="sheet-price" id="sheetPrice"></div>
+      </div>
+    </div>
+    <div id="sheetCartSummary" class="sheet-cart-summary" style="display:none;margin-bottom:4px;"></div>
+    <div id="sheetControls"></div>
+    <div id="sheetUpsell"></div>
+    <div class="sheet-footer">
+      <div class="sheet-qty-row">
+        <button class="sheet-qty-btn" onclick="sheetQtyChange(-1)">−</button>
+        <div class="sheet-qty-num" id="sheetQty">1</div>
+        <button class="sheet-qty-btn" onclick="sheetQtyChange(1)">+</button>
+      </div>
+      <button class="sheet-add-btn" id="sheetAddBtn" onclick="sheetConfirmAdd()">Thêm vào giỏ</button>
+    </div>
+  </div>
+</div>
+
+<!-- BILL PANEL -->
+<div class="bill-panel" id="billPanel">
+  <div class="bill-head">
+    <h3>Chi tiết đơn hàng</h3>
+    <button class="close-btn" onclick="toggleBill(false)">×</button>
+  </div>
+  <div class="bill-body">
+    <div id="billOrderTime" style="display:none;font-size:13px;color:#8a6a2f;margin-bottom:8px;font-weight:700;"></div>
+    <div id="billItems"></div>
+    <div class="bill-total"><span>Tổng cộng</span><span id="billTotal">0đ</span></div>
+    <div class="customer-box">
+      <label style="font-size:13px;font-weight:700;color:#a85700;">📍 SĐT + Địa chỉ (bắt buộc)</label>
+      <input id="customerBlock" class="input" type="text" placeholder="VD: 0909xxxxxx - Phòng 101" />
+      <select id="paymentMethod" class="input">
+        <option value="Chuyển khoản">Chuyển khoản</option>
+        <option value="Tiền mặt">Tiền mặt</option>
+        <option value="Chưa thanh toán">Chưa thanh toán</option>
+      </select>
+    </div>
+    <button id="saveBtn" class="btn btn-save-sheet" onclick="saveOrderToSheet()">✅ Xác Nhận Đặt Hàng</button>
+    <button class="btn btn-back-menu" onclick="toggleBill(false);scrollToTop()">← Chọn thêm món</button>
+    <button class="btn btn-clear" onclick="clearCart()">🗑️ Xoá đơn / Đặt lại</button>
+  </div>
+</div>
+
+<!-- MINI BILL -->
+<div class="mini-bill">
+  <div class="mini-bill-inner">
+    <div>
+      <div class="mini-bill-top" id="miniBillTop">0 món · 0đ</div>
+      <div class="mini-bill-last" id="miniBillLast"></div>
+    </div>
+    <button class="mini-bill-btn" onclick="toggleBill(true)">✅ Xem đơn hàng</button>
+  </div>
+</div>
+
+<!-- CAPTURE BILL (ẩn) -->
+<div class="capture-wrap">
+  <div class="capture-box" id="captureBill">
+    <div class="capture-head">
+      <h2>Mama Coffee 05 - 999 Nguyễn Văn Linh, Quận 7</h2>
+      <p>Hóa đơn thanh toán</p>
+    </div>
+    <div id="captureOrderTime" style="text-align:center;font-size:13px;color:#8a6a2f;margin-bottom:10px;"></div>
+    <div class="capture-info" id="captureCustomerInfo"></div>
+    <div id="captureItems"></div>
+    <div class="capture-total"><span>Tổng tiền:</span><span id="captureTotal">0đ</span></div>
+    <div class="capture-qr">
+      <p style="margin:0 0 10px;font-size:13px;font-weight:bold;color:#a85700;">QUÉT MÃ ĐỂ THANH TOÁN</p>
+      <img src="" alt="QR" crossorigin="anonymous"/>
+      <p style="margin:5px 0 0;font-size:11px;color:#888;">Chủ TK: MAMA COFFEE CLONE - STK: 999888777 - VietcomBank</p>
+    </div>
+    <p style="text-align:center;font-size:11px;color:#888;margin-top:15px;border-top:1px solid #eee;padding-top:10px;">Cảm ơn quý khách đã ủng hộ Mama Coffee 05!</p>
+  </div>
+</div>
+
+<div class="float-actions" id="floatActions">
+  <button class="fab" onclick="scrollToTop()">⬆️</button>
+</div>
+
+<script>
+const SHEET_WEBAPP_URL = "https://script.google.com/test";
+const TELEGRAM_BOT_TOKEN = "{{TELEGRAM_BOT_TOKEN}}";
+const TELEGRAM_CHAT_ID = "-100123456";
+
+const UPSELL_DEFS = {};
+
+let products = [
+  {
+    "id": "item-0",
+    "category": "CA PHE",
+    "name": "Cafe Kem",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-1",
+    "category": "CA PHE",
+    "name": "Cafe Muối",
+    "basePrice": 40000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-2",
+    "category": "CA PHE",
+    "name": "Cafe pha phin",
+    "basePrice": 30000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-3",
+    "category": "CA PHE",
+    "name": "Cafe Sữa Nóng",
+    "basePrice": 35000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-4",
+    "category": "CA PHE",
+    "name": "Bạc Xỉu Nóng",
+    "basePrice": 35000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-5",
+    "category": "CA PHE",
+    "name": "Cacao sữa Nóng",
+    "basePrice": 35000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-6",
+    "category": "CA PHE",
+    "name": "Matcha Latte",
+    "basePrice": 35000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-7",
+    "category": "TRA",
+    "name": "Hồng Trà Mama",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-8",
+    "category": "TRA",
+    "name": "Tắc Muối Muối",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-9",
+    "category": "TRA",
+    "name": "Atiso",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-10",
+    "category": "TRA",
+    "name": "Dâu Tằm",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-11",
+    "category": "TRA",
+    "name": "Trà Vải",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-12",
+    "category": "TRA",
+    "name": "Trà Đào",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-13",
+    "category": "TRA",
+    "name": "Trà Mãng Cầu",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-14",
+    "category": "TRA",
+    "name": "Trà Bạc Hà",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-15",
+    "category": "TRA",
+    "name": "Trà Mè Hạt Đắc",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-16",
+    "category": "TRA",
+    "name": "Trà Mè Thơm",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-17",
+    "category": "TRA",
+    "name": "Trà Chanh Dây",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-18",
+    "category": "YAOURT",
+    "name": "Yaourt Tuyết",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-19",
+    "category": "YAOURT",
+    "name": "Yaourt Truyền Thống",
+    "basePrice": 46000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-20",
+    "category": "YAOURT",
+    "name": "Yaourt Hạt Đắc",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-21",
+    "category": "YAOURT",
+    "name": "Yaourt Dâu Tây",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-22",
+    "category": "YAOURT",
+    "name": "Yaourt Dâu Tằm",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-23",
+    "category": "LATTE",
+    "name": "Matcha Latte",
+    "basePrice": 46000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-24",
+    "category": "LATTE",
+    "name": "Chocolate Latte",
+    "basePrice": 46000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-25",
+    "category": "LATTE",
+    "name": "Taro Latte",
+    "basePrice": 46000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-26",
+    "category": "LATTE",
+    "name": "Khoai Môn Latte",
+    "basePrice": 46000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-27",
+    "category": "LATTE",
+    "name": "Matcha Sữa Dừa",
+    "basePrice": 56000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-28",
+    "category": "LATTE",
+    "name": "Cacao Sữa Dừa",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-29",
+    "category": "LATTE",
+    "name": "Khoai Môn Sữa Dừa",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-30",
+    "category": "DA XAY",
+    "name": "Mưới mưới nâng xay",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-31",
+    "category": "DA XAY",
+    "name": "Hương Hồng Xay",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-32",
+    "category": "DA XAY",
+    "name": "Cookie Đá Xay",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-33",
+    "category": "DA XAY",
+    "name": "Matcha Đá Xay",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-34",
+    "category": "DA XAY",
+    "name": "Chocolate Đá Xay",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-35",
+    "category": "DA XAY",
+    "name": "Khoai Môn Đá Xay",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-36",
+    "category": "TRA SUA",
+    "name": "Ts Truyền Thống",
+    "basePrice": 46000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-37",
+    "category": "TRA SUA",
+    "name": "Ts Thái Xanh",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-38",
+    "category": "TRA SUA",
+    "name": "Ts Olong",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-39",
+    "category": "TRA SUA",
+    "name": "Ts Hoa Lài",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-40",
+    "category": "TRA SUA",
+    "name": "Ts Cafe",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-41",
+    "category": "TRA SUA",
+    "name": "Ts Khoai Môn",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-42",
+    "category": "TRA SUA",
+    "name": "Ts Bạc Hà",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-43",
+    "category": "TRA SUA",
+    "name": "Ts Matcha",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-44",
+    "category": "TRA SUA",
+    "name": "Ts Chocolate",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-45",
+    "category": "TRA SUA",
+    "name": "Ts Dâu",
+    "basePrice": 50000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-46",
+    "category": "TRA SUA",
+    "name": "Ts Dưa Lưới",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-47",
+    "category": "TRA SUA",
+    "name": "Milo Dầm",
+    "basePrice": 55000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-48",
+    "category": "TRA SUA",
+    "name": "Ts MAMA",
+    "basePrice": 60000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-49",
+    "category": "AN VAT",
+    "name": "Dimsum Hoa Hồng",
+    "basePrice": 45000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-50",
+    "category": "AN VAT",
+    "name": "Mì Ly",
+    "basePrice": 20000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  },
+  {
+    "id": "item-51",
+    "category": "AN VAT",
+    "name": "Bánh Flan Full Topping",
+    "basePrice": 30000,
+    "customizable": true,
+    "options": null,
+    "image": "",
+    "upsells": []
+  }
+];
+
+let categories = [...new Set(products.map(p => p.category))];
+let cart = [];
+let orderTime = null;
+let currentSearch = "";
+const collapsedCategories = {};
+let sheetPid = null;
+let sheetQtyVal = 1;
+let sheetSelectedUpsells = new Set();
+
+function slugify(str){ return "cat-"+String(str||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,""); }
+function normalizeText(str){ return String(str||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/đ/g,"d").trim(); }
+function formatPrice(p){ return p?p.toLocaleString("vi-VN")+"đ":"0đ"; }
+function formatOrderTime(date){ if(!date)return""; const d=new Date(date); return String(d.getDate()).padStart(2,"0")+"/"+String(d.getMonth()+1).padStart(2,"0")+"/"+d.getFullYear()+" - "+String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"); }
+function scrollToTop(){ window.scrollTo({top:0,behavior:"smooth"}); }
+function matchesSearch(p,kw){ if(!kw)return true; const h=normalizeText([p.name,p.category,p.id,...(p.options||[]).map(o=>o.label)].join(" ")); return h.includes(kw); }
+function handleSearchInput(v){ currentSearch=normalizeText(v); renderMenu(); }
+function renderCategoryBar(){}
+function scrollToCategory(id){ const el=document.getElementById(id); if(!el)return; const cat=el.getAttribute("data-category"); if(cat){collapsedCategories[cat]=false;renderMenu();} const el2=document.getElementById(id); if(!el2)return; window.scrollTo({top:el2.getBoundingClientRect().top+window.pageYOffset-115,behavior:"smooth"}); }
+function updateActiveCategoryOnScroll(){}
+
+function renderMenu(){
+  const vis=categories.filter(c=>products.some(p=>p.category===c&&matchesSearch(p,currentSearch)));
+  if(!vis.length){ document.getElementById("menuContainer").innerHTML=`<div style="padding:24px;text-align:center;color:#888;font-size:14px;">Không tìm thấy món phù hợp 🔍</div>`; return; }
+  document.getElementById("menuContainer").innerHTML=vis.map(cat=>{
+    const id=slugify(cat);
+    const items=products.filter(p=>p.category===cat&&matchesSearch(p,currentSearch));
+    const collapsed=!!collapsedCategories[cat]&&!currentSearch;
+    return `<div class="section${collapsed?" collapsed":""}" id="${id}" data-category="${cat}">
+      <div class="section-head" onclick="toggleCollapse('${cat.replace(/'/g,"\\'")}')">
+        <h2 class="section-title">${cat}</h2>
+        <div class="section-pill"><span class="section-pill-text-open">Thu gọn ↑</span><span class="section-pill-text-close">Xem thêm ↓</span></div>
+      </div>
+      <div class="item-grid">
+        ${items.map(p=>{
+          const qty=cart.filter(i=>i.productId===p.id).reduce((s,i)=>s+i.qty,0);
+          const imgHTML=p.image?`<img src="${p.image}" alt="${p.name}" loading="lazy"/>`:`<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#c8a96a;">MC0</div>`;
+          return `<div class="item-card" data-product-id="${p.id}">
+            <div class="card-img" onclick="openSheet('${p.id}')">
+              ${imgHTML}
+              <div class="card-qty-badge${qty>0?" show":""}" id="badge-${p.id}">${qty}</div>
+              ${(p.customizable||p.options)
+                ? `<button class="card-plus" onclick="event.stopPropagation();handlePlusClick('${p.id}')">+</button>`
+                : `<div class="card-qty-controls" id="ctrl-${p.id}" style="${qty>0?'':'display:none;'}">
+                    <button class="card-qbtn" onclick="event.stopPropagation();cardMinus('${p.id}')">−</button>
+                    <span class="card-qnum" id="cnum-${p.id}">${qty}</span>
+                    <button class="card-qbtn" onclick="event.stopPropagation();cardPlus('${p.id}')">+</button>
+                   </div>
+                   <button class="card-plus" id="cplus-${p.id}" onclick="event.stopPropagation();handlePlusClick('${p.id}')" style="${qty>0?'display:none;':''}">+</button>`
+              }
+            </div>
+            <div class="card-info" onclick="openSheet('${p.id}')">
+              <div class="card-name">${p.name}</div>
+              <div class="card-price">${formatPrice(p.basePrice)}</div>
+            </div>
+          </div>`;
+        }).join("")}
+      </div>
+    </div>`;
+  }).join("");
+}
+
+function toggleCollapse(cat){ collapsedCategories[cat]=!collapsedCategories[cat]; renderMenu(); }
+function handlePlusClick(pid){ openSheet(pid); }
+
+function cardPlus(pid){
+  const p=products.find(i=>i.id===pid); if(!p)return;
+  if(!orderTime)orderTime=new Date();
+  const key=pid+"-default";
+  const found=cart.find(i=>i.key===key);
+  if(found){found.qty++;}else{cart.push({key,productId:pid,name:p.name,optionLabel:"Mặc định",price:p.basePrice,ice:"N/A",sugar:"N/A",customNote:"",upsellLabels:[],qty:1});}
+  updateAll(); updateCardControls(pid); shakeMiniBtn();
+}
+
+function cardMinus(pid){
+  const key=pid+"-default";
+  const found=cart.find(i=>i.key===key);
+  if(!found)return;
+  found.qty--;
+  if(found.qty<=0)cart=cart.filter(i=>i.key!==key);
+  updateAll(); updateCardControls(pid);
+}
+
+function updateCardControls(pid){
+  const qty=cart.filter(i=>i.productId===pid).reduce((s,i)=>s+i.qty,0);
+  const ctrl=document.getElementById("ctrl-"+pid);
+  const plusBtn=document.getElementById("cplus-"+pid);
+  const cnum=document.getElementById("cnum-"+pid);
+  if(ctrl){ctrl.style.display=qty>0?"flex":"none";}
+  if(plusBtn){plusBtn.style.display=qty>0?"none":"";}
+  if(cnum){cnum.textContent=qty;}
+}
+
+function openSheet(pid){
+  const p=products.find(i=>i.id===pid); if(!p)return;
+  sheetPid=pid; sheetQtyVal=1; sheetSelectedUpsells=new Set();
+  const imgWrap=document.getElementById("sheetImgWrap");
+  if(p.image){imgWrap.innerHTML=`<img class="sheet-img" src="${p.image}" alt="${p.name}" crossorigin="anonymous"/>`;}
+  else{imgWrap.innerHTML=`<div class="sheet-img-placeholder">🍹 MC0</div>`;}
+  document.getElementById("sheetName").textContent=p.name;
+  document.getElementById("sheetPrice").textContent=formatPrice(p.basePrice);
+  document.getElementById("sheetQty").textContent=sheetQtyVal;
+  let ctrl="";
+  if(p.options){ctrl+=`<div class="sheet-label">Chọn loại</div><select class="sheet-select" id="sh-option">${p.options.map(o=>`<option value="${o.price}">${o.label} - ${formatPrice(o.price)}</option>`).join("")}</select>`;}
+  if(p.customizable){
+    ctrl+=`<div class="sheet-label">Đá</div><select class="sheet-select" id="sh-ice"><option>Đá: Bình thường</option><option>Đá: Ít đá</option><option>Đá: Không đá</option></select>
+    <div class="sheet-label">Đường</div><select class="sheet-select" id="sh-sugar"><option>Đường: Bình thường</option><option>Đường: Ít đường</option><option>Đường: Không đường</option></select>`;
+  }
+  ctrl+=`<div class="sheet-label">Ghi chú</div><input type="text" class="sheet-input" id="sh-note" placeholder="Ghi chú thêm..." />`;
+  document.getElementById("sheetControls").innerHTML=ctrl;
+  let upsellHTML="";
+  if(p.upsells&&p.upsells.length){
+    upsellHTML=`<div class="sheet-upsell-label">🍟 Thêm vào đơn</div><div class="upsell-list">${p.upsells.map(key=>{const def=UPSELL_DEFS[key];if(!def)return"";return`<div class="upsell-row" id="urow-${def.id}" onclick="toggleSheetUpsell('${def.id}')"><div class="upsell-row-left"><div class="upsell-check">✓</div><div class="upsell-row-name">${def.label}</div></div><div class="upsell-row-price">+${formatPrice(def.price)}</div></div>`;}).join("")}</div>`;
+  }
+  document.getElementById("sheetUpsell").innerHTML=upsellHTML;
+  updateSheetBtn();
+  setTimeout(()=>{syncSheetQtyFromCart();renderSheetCartSummary(pid);},50);
+  document.getElementById("sheetOverlay").classList.add("open");
+  document.getElementById("sheet").classList.add("open");
+  document.body.style.overflow="hidden";
+}
+
+function closeSheet(){
+  document.getElementById("sheetOverlay").classList.remove("open");
+  document.getElementById("sheet").classList.remove("open");
+  document.body.style.overflow="";
+  sheetPid=null;
+}
+
+function toggleSheetUpsell(defId){
+  if(sheetSelectedUpsells.has(defId))sheetSelectedUpsells.delete(defId);
+  else sheetSelectedUpsells.add(defId);
+  const row=document.getElementById("urow-"+defId);
+  if(row)row.classList.toggle("selected",sheetSelectedUpsells.has(defId));
+  updateSheetBtn();
+}
+
+function sheetQtyChange(delta){
+  sheetQtyVal=Math.max(0,sheetQtyVal+delta);
+  const qtyEl=document.getElementById("sheetQty");
+  if(qtyEl)qtyEl.textContent=sheetQtyVal;
+  updateSheetBtn();
+}
+
+function renderSheetCartSummary(pid){
+  const items=cart.filter(i=>i.productId===pid);
+  if(!items.length){const el=document.getElementById("sheetCartSummary");if(el){el.style.display="none";el.innerHTML="";}return;}
+  const el=document.getElementById("sheetCartSummary");if(!el)return;
+  const total=items.reduce((s,i)=>s+i.qty,0);
+  const rows=items.map(i=>{const parts=[];if(i.ice&&i.ice!=="N/A")parts.push(i.ice);if(i.sugar&&i.sugar!=="N/A")parts.push(i.sugar);if(i.upsellLabels&&i.upsellLabels.length)parts.push("+"+i.upsellLabels.join(", +"));if(i.customNote)parts.push(i.customNote);const label=parts.length?parts.join(" · "):"Mặc định";return`<div class="sheet-cart-row"><span>${i.qty} ly · ${label}</span><span>${(i.qty*i.price).toLocaleString("vi-VN")}đ</span></div>`;}).join("");
+  el.innerHTML=`<div class="sheet-cart-summary-title">🛒 Đang có ${total} ly trong giỏ:</div>${rows}`;
+  el.style.display="block";
+}
+
+function getSheetCurrentKey(){
+  if(!sheetPid)return null;
+  const optEl=document.getElementById("sh-option");
+  const optLabel=optEl?optEl.options[optEl.selectedIndex]?.text.split(" - ")[0]:"Mặc định";
+  const iceEl=document.getElementById("sh-ice");
+  const sugarEl=document.getElementById("sh-sugar");
+  const noteEl=document.getElementById("sh-note");
+  const ice=iceEl?iceEl.value:"N/A";
+  const sugar=sugarEl?sugarEl.value:"N/A";
+  const customNote=noteEl?noteEl.value.trim():"";
+  const upsellKey=Array.from(sheetSelectedUpsells).join("|");
+  return sheetPid+"-"+optLabel+"-"+ice+"-"+sugar+"-"+customNote+"-"+upsellKey;
+}
+
+function syncSheetQtyFromCart(){
+  const key=getSheetCurrentKey(); if(!key)return;
+  const found=cart.find(i=>i.key===key);
+  sheetQtyVal=found?found.qty:1;
+  const qtyEl=document.getElementById("sheetQty");
+  if(qtyEl)qtyEl.textContent=sheetQtyVal;
+  updateSheetBtn();
+}
+
+function updateSheetBtn(){
+  const p=products.find(i=>i.id===sheetPid); if(!p)return;
+  let basePrice=p.basePrice;
+  const optEl=document.getElementById("sh-option");
+  if(optEl&&optEl.value)basePrice=Number(optEl.value)||p.basePrice;
+  const upsellPrice=Array.from(sheetSelectedUpsells).reduce((s,id)=>{const def=Object.values(UPSELL_DEFS).find(d=>d.id===id);return s+(def?def.price:0);},0);
+  const total=(basePrice+upsellPrice)*sheetQtyVal;
+  const btn=document.getElementById("sheetAddBtn");
+  if(btn){
+    if(sheetQtyVal===0){btn.textContent="Xóa khỏi giỏ";btn.style.background="#fee2e2";btn.style.color="#dc2626";}
+    else{const curKey=getSheetCurrentKey();const alreadyInCart=curKey&&cart.some(i=>i.key===curKey);if(alreadyInCart){btn.textContent="Cập nhật - "+formatPrice(total);btn.style.background="linear-gradient(135deg,#34d399,#059669)";btn.style.color="#fff";}else{btn.textContent="Thêm "+sheetQtyVal+" vào giỏ - "+formatPrice(total);btn.style.background="";btn.style.color="";}}
+  }
+}
+
+function sheetConfirmAdd(){
+  const p=products.find(i=>i.id===sheetPid); if(!p)return;
+  if(sheetQtyVal===0){const curKey=getSheetCurrentKey();if(curKey)cart=cart.filter(i=>i.key!==curKey);updateAll();animateBadge(sheetPid);renderSheetCartSummary(sheetPid);if(!cart.some(i=>i.productId===sheetPid))closeSheet();return;}
+  let basePrice=p.basePrice;
+  const optEl=document.getElementById("sh-option");
+  const optLabel=optEl?optEl.options[optEl.selectedIndex].text.split(" - ")[0]:"Mặc định";
+  if(optEl)basePrice=Number(optEl.value)||p.basePrice;
+  const iceEl=document.getElementById("sh-ice");
+  const sugarEl=document.getElementById("sh-sugar");
+  const noteEl=document.getElementById("sh-note");
+  const ice=iceEl?iceEl.value:"N/A";
+  const sugar=sugarEl?sugarEl.value:"N/A";
+  const customNote=noteEl?noteEl.value.trim():"";
+  const upsellDefs=Array.from(sheetSelectedUpsells).map(id=>Object.values(UPSELL_DEFS).find(d=>d.id===id)).filter(Boolean);
+  const upsellLabels=upsellDefs.map(d=>d.label);
+  const upsellPrice=upsellDefs.reduce((s,d)=>s+d.price,0);
+  const finalPrice=basePrice+upsellPrice;
+  const key=`${sheetPid}-${optLabel}-${ice}-${sugar}-${customNote}-${Array.from(sheetSelectedUpsells).join("|")}`;
+  if(!orderTime)orderTime=new Date();
+  const existingIdx=cart.findIndex(i=>i.key===key);
+  if(existingIdx>=0){if(sheetQtyVal>0){cart[existingIdx].qty=sheetQtyVal;}else{cart.splice(existingIdx,1);}}
+  else if(sheetQtyVal>0){cart.push({key,productId:sheetPid,name:p.name,optionLabel:optLabel,price:finalPrice,ice,sugar,customNote,upsellLabels,qty:sheetQtyVal});}
+  updateAll(); animateBadge(sheetPid); shakeMiniBtn(); closeSheet();
+}
+
+function animateBadge(pid){
+  const badge=document.getElementById("badge-"+pid);if(!badge)return;
+  const qty=cart.filter(i=>i.productId===pid).reduce((s,i)=>s+i.qty,0);
+  badge.textContent=qty; badge.classList.toggle("show",qty>0);
+}
+
+function shakeMiniBtn(){
+  const btn=document.querySelector(".mini-bill-btn");
+  if(btn){btn.classList.add("shake");setTimeout(()=>btn.classList.remove("shake"),400);}
+}
+
+function updateAll(){
+  products.forEach(p=>{
+    const badge=document.getElementById("badge-"+p.id);if(!badge)return;
+    const qty=cart.filter(i=>i.productId===p.id).reduce((s,i)=>s+i.qty,0);
+    badge.textContent=qty; badge.classList.toggle("show",qty>0);
+  });
+  const totalP=cart.reduce((s,i)=>s+i.qty*i.price,0);
+  const totalQ=cart.reduce((s,i)=>s+i.qty,0);
+  document.getElementById("cartCount").textContent=totalQ;
+  document.getElementById("miniBillTop").textContent=totalQ+" món - "+formatPrice(totalP);
+  const lastEl=document.getElementById("miniBillLast");
+  if(!cart.length){lastEl.innerHTML="";}
+  else{lastEl.innerHTML=cart.slice(-3).reverse().map(i=>`<div>+${i.qty} ${i.name} · ${formatPrice(i.qty*i.price)}</div>`).join("");}
+  const btEl=document.getElementById("billOrderTime");
+  if(btEl){if(orderTime&&cart.length){btEl.style.display="block";btEl.innerHTML=`⏰ Order: <strong>${formatOrderTime(orderTime)}</strong>`;}else btEl.style.display="none";}
+  const billItems=document.getElementById("billItems");
+  billItems.innerHTML=cart.length?cart.map((item,idx)=>`
+    <div class="bill-item">
+      <div class="bill-item-top">
+        <div class="bill-item-name">${idx+1}. ${item.name} x${item.qty}</div>
+        <div class="bill-item-price">${formatPrice(item.qty*item.price)}</div>
+      </div>
+      <div class="bill-item-note">
+        ${item.optionLabel!=="Mặc định"?`• ${item.optionLabel} `:""}
+        ${item.ice!=="N/A"?`• ${item.ice} `:""}
+        ${item.sugar!=="N/A"?`| ${item.sugar} `:""}
+        ${item.upsellLabels&&item.upsellLabels.length?`<br><span style="color:#f6a400;">• Thêm: ${item.upsellLabels.join(", ")}</span>`:""}
+        ${item.customNote?`<br><span style="color:#d97706;">• Ghi chú: ${item.customNote}</span>`:""}
+      </div>
+    </div>`).join(""):`<div class="bill-empty">Giỏ hàng đang trống</div>`;
+  document.getElementById("billTotal").textContent=formatPrice(totalP);
+}
+
+function toggleBill(show){ document.getElementById("billPanel").style.display=show?"block":"none"; }
+
+function clearCart(skipConfirm=false){
+  if(!skipConfirm&&!confirm("Xoá toàn bộ đơn?"))return;
+  cart=[];orderTime=null;
+  const cb=document.getElementById("customerBlock");if(cb)cb.value="";
+  updateAll();toggleBill(false);
+}
+
+function buildSheetPayload(){
+  const block=document.getElementById("customerBlock")?.value.trim()||"";
+  const payment=document.getElementById("paymentMethod")?.value||"";
+  const items=cart.map(i=>{
+    const n=[];
+    if(i.optionLabel&&i.optionLabel!=="Mặc định")n.push(i.optionLabel);
+    if(i.ice&&i.ice!=="N/A")n.push(i.ice);
+    if(i.sugar&&i.sugar!=="N/A")n.push(i.sugar);
+    if(i.upsellLabels&&i.upsellLabels.length)n.push("Thêm: "+i.upsellLabels.join(", "));
+    if(i.customNote)n.push("Ghi chú: "+i.customNote);
+    return{name:i.name,qty:i.qty,price:i.price,note:n.join(" | ")};
+  });
+  return{block,payment,items};
+}
+
+let isSavingOrder=false;
+async function saveOrderToSheet(){
+  if(!cart.length){alert("Chưa có món nào!");return;}
+  if(isSavingOrder)return;
+  const block=document.getElementById("customerBlock").value.trim();
+  if(!block){alert("Bạn chưa nhập thông tin!");document.getElementById("customerBlock").focus();toggleBill(true);return;}
+  const btn=document.getElementById("saveBtn");
+  const oldText=btn.innerHTML;
+  isSavingOrder=true;btn.disabled=true;
+  let cd=5;btn.innerHTML=`⏳ Đang lưu... (${cd}s)`;
+  const timer=setInterval(()=>{cd--;if(cd>=0)btn.innerHTML=`⏳ Đang lưu... (${cd}s)`;},1000);
+  try{
+    const payload=buildSheetPayload();
+    const now=new Date();
+    const timeStr=now.toLocaleString("vi-VN",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});
+    document.getElementById("captureOrderTime").innerHTML="⏰ Đặt lúc: "+timeStr;
+    document.getElementById("captureCustomerInfo").innerHTML=`📍 Thông tin: ${payload.block||""}<br>💳 Thanh toán: ${payload.payment||""}`;
+    document.getElementById("captureItems").innerHTML=payload.items.map(i=>`<div class="item-row"><div><div class="item-name">${i.name} x${i.qty}</div><div class="item-note">${i.note}</div></div><div style="white-space:nowrap;padding-left:8px;">${((i.qty||0)*(i.price||0)).toLocaleString("vi-VN")}đ</div></div>`).join("");
+    document.getElementById("captureTotal").innerText=payload.items.reduce((s,i)=>s+(i.qty||0)*(i.price||0),0).toLocaleString("vi-VN")+"đ";
+    await new Promise(r=>setTimeout(r,500));
+    await fetch(SHEET_WEBAPP_URL,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(payload)});
+    await sendBillImageToTelegram();
+    clearInterval(timer);btn.innerHTML="✅ Đã gửi đơn";
+    alert("Đã gửi đơn thành công! 🎉");
+    clearCart(true);
+    setTimeout(()=>{btn.disabled=false;btn.innerHTML=oldText;isSavingOrder=false;},1200);
+  }catch(e){
+    clearInterval(timer);btn.innerHTML="❌ Lỗi, thử lại";
+    setTimeout(()=>{btn.disabled=false;btn.innerHTML=oldText;isSavingOrder=false;},1500);
+  }
+}
+
+async function sendBillImageToTelegram(){
+  const billEl=document.getElementById("captureBill");if(!billEl)return;
+  await new Promise(r=>setTimeout(r,1800));
+  const canvas=await html2canvas(billEl,{scale:1.3,useCORS:true,backgroundColor:"#ffffff"});
+  const blob=await new Promise(r=>canvas.toBlob(r,"image/png"));
+  const form=new FormData();
+  form.append("chat_id",TELEGRAM_CHAT_ID);
+  form.append("photo",blob,"bill.png");
+  form.append("caption","🧾 Đơn hàng mới - Mama Coffee 05");
+  await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendPhoto`,{method:"POST",body:form});
+}
+
+function goHome(){
+  const inp=document.getElementById("searchInput");if(inp)inp.value="";
+  currentSearch="";
+  Object.keys(collapsedCategories).forEach(k=>collapsedCategories[k]=false);
+  renderMenu(); window.scrollTo({top:0,behavior:"smooth"});
+}
+
+window.addEventListener("scroll",()=>{
+  const fa=document.getElementById("floatActions");
+  if(fa){if(window.scrollY>220)fa.classList.add("show");else fa.classList.remove("show");}
+});
+
+renderMenu();
+updateAll();
+document.getElementById("loading").style.display="none";
+</script>
+</body>
+</html>
